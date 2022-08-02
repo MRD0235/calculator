@@ -1,0 +1,21 @@
+#buttonRow4, #buttonRow3, #buttonRow2, #buttonRow1, #buttonRow0 {
+    display: flex;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+}
+
+.wide {
+    width: 40px;
+}
+
+#display {
+    width: 110px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: right;
+    padding: 0 3px;
+}
