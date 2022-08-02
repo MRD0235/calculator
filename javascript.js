@@ -14,6 +14,24 @@ function divide(num1, num2) {
     return num1 / num2
 }
 
+function operate(operator, num1, num2) {
+    switch(operator) {
+        case "+":
+            answer = add(num1, num2)
+            break
+        case "-":
+            answer = subtract(num1, num2)
+            break
+        case "*":
+            answer = subtract(num1, num2)
+            break
+        case "/":
+            answer = divide(num1, num2)
+            break
+    }
+    return answer
+}
+
 num1 = 16
 num2 = 25
 console.log(add(num1, num2))
