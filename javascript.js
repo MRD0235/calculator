@@ -1,5 +1,5 @@
 const display = document.getElementById("display")
-display.textContent = ""
+display.textContent = 0
 let currentDisplay = display.textContent
 let waitVariable = true
 let evaluate = false
